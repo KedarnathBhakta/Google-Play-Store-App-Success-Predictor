@@ -73,30 +73,31 @@ The project uses two main datasets:
 
 ---
 
-📁 Project Structure
+PROJECT STRUCTURE
 
-📄 README.md
-📄 requirements.txt
-📂 data/
-    📄 googleplaystore.csv
-    📄 googleplaystore_user_reviews.csv
-📂 notebooks/
-    📄 01_data_exploration.ipynb
-    📄 02_data_cleaning.ipynb
-    📄 03_analysis_apps.ipynb
-    📄 04_analysis_reviews.ipynb
-    📄 05_final_insights.ipynb
-📂 src/
-    📄 __init__.py
-    📄 data_loader.py
-    📄 data_cleaner.py
-    📄 visualizer.py
-    📄 analyzer.py
-📂 reports/
-    📂 figures/
-    📄 final_report.md
-📂 results/
-    📄 insights_summary.md
+📦 Google Play Store App Success Predictor
+├── 📄 README.md
+├── 📄 requirements.txt
+├── 📁 data
+│   ├── 📄 googleplaystore.csv
+│   └── 📄 googleplaystore_user_reviews.csv
+├── 📁 notebooks
+│   ├── 📄 01_data_exploration.ipynb
+│   ├── 📄 02_data_cleaning.ipynb
+│   ├── 📄 03_analysis_apps.ipynb
+│   ├── 📄 04_analysis_reviews.ipynb
+│   └── 📄 05_final_insights.ipynb
+├── 📁 src
+│   ├── 📄 __init__.py
+│   ├── 📄 data_loader.py
+│   ├── 📄 data_cleaner.py
+│   ├── 📄 visualizer.py
+│   └── 📄 analyzer.py
+├── 📁 reports
+│   ├── 📁 figures
+│   └── 📄 final_report.md
+├── 📁 results
+│   └── 📄 insights_summary.md
 
 ---
 
