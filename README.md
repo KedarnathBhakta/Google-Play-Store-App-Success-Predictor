@@ -1,3 +1,5 @@
+Web app URL (https://kedar-play-store-app-success-predictor-cvwpb22cpjr6m2tbjx4tnf.streamlit.app/)
+
 📱 Google Play Store Apps - Exploratory Data Analysis
 
 
