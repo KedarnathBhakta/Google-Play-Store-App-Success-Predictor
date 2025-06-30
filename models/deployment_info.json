@@ -1,0 +1,52 @@
+{
+  "models_available": [
+    "Rating",
+    "Popularity_Score",
+    "Success_Binary",
+    "High_Rating_Binary"
+  ],
+  "features_used": [
+    "Reviews",
+    "Size_MB",
+    "Price_Numeric",
+    "Android_Min_Version",
+    "App_Age_Days",
+    "Category_Popularity",
+    "Content_Rating_Score",
+    "Android_Version_Score",
+    "App_Name_Length",
+    "Has_Reviews",
+    "Review_Density",
+    "Type",
+    "Price_Category",
+    "Size_Category",
+    "Install_Category"
+  ],
+  "model_paths": {
+    "Rating": "models/Rating_model.joblib",
+    "Popularity_Score": "models/Popularity_Score_model.joblib",
+    "Success_Binary": "models/Success_Binary_model.joblib",
+    "High_Rating_Binary": "models/High_Rating_Binary_model.joblib"
+  },
+  "preprocessing_info": {
+    "categorical_features": [
+      "Type",
+      "Price_Category",
+      "Size_Category",
+      "Install_Category"
+    ],
+    "numerical_features": [
+      "Reviews",
+      "Size_MB",
+      "Price_Numeric",
+      "Android_Min_Version",
+      "App_Age_Days",
+      "Category_Popularity",
+      "Content_Rating_Score",
+      "Android_Version_Score",
+      "App_Name_Length",
+      "Has_Reviews",
+      "Review_Density"
+    ]
+  }
+}

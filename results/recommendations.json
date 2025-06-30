@@ -1,0 +1,59 @@
+{
+  "key_insights": [
+    "Moderate predictive power for Rating (R\u00b2 = 0.159)",
+    "Strong predictive power for Popularity_Score (R\u00b2 = 0.993)",
+    "High accuracy for Success_Binary classification (0.917)",
+    "Moderate accuracy for High_Rating_Binary classification (0.741)"
+  ],
+  "feature_recommendations": [
+    {
+      "target": "Rating",
+      "top_features": [
+        "Review_Density",
+        "Reviews",
+        "App_Age_Days",
+        "App_Name_Length",
+        "Size_MB"
+      ]
+    },
+    {
+      "target": "Popularity_Score",
+      "top_features": [
+        "Reviews",
+        "Install_Category_Very High",
+        "Install_Category_Very Low",
+        "Review_Density",
+        "Install_Category_Medium"
+      ]
+    }
+  ],
+  "business_strategy": [
+    "Focus on app quality and user experience to improve ratings",
+    "Consider pricing strategy based on market analysis",
+    "Optimize app size for better download rates",
+    "Target popular categories while finding unique positioning",
+    "Maintain regular updates to keep apps current"
+  ],
+  "sample_apps": [
+    {
+      "profile": "High-Rating Free App",
+      "characteristics": {
+        "Type": "Free",
+        "Size_MB": "< 50MB",
+        "Reviews": "> 1000",
+        "Category": "Popular categories (GAME, FAMILY)",
+        "Content_Rating": "Everyone"
+      }
+    },
+    {
+      "profile": "Successful Paid App",
+      "characteristics": {
+        "Type": "Paid",
+        "Price_Numeric": "$2.99 - $9.99",
+        "Rating": "> 4.0",
+        "Reviews": "> 500",
+        "Category": "BUSINESS, PRODUCTIVITY"
+      }
+    }
+  ]
+}

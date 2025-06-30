@@ -1,0 +1,193 @@
+{
+  "model_performance": {
+    "Rating": {
+      "mse": 0.25881033414634147,
+      "r2": 0.15948170241885096,
+      "target_type": "regression"
+    },
+    "Popularity_Score": {
+      "mse": 0.1427111780293727,
+      "r2": 0.9927730537170577,
+      "target_type": "regression"
+    },
+    "Success_Binary": {
+      "accuracy": 0.917184265010352,
+      "target_type": "classification"
+    },
+    "High_Rating_Binary": {
+      "accuracy": 0.7406832298136646,
+      "target_type": "classification"
+    }
+  },
+  "feature_importance": {
+    "Rating": [
+      {
+        "feature": "Review_Density",
+        "importance": 0.21734892980314682
+      },
+      {
+        "feature": "Reviews",
+        "importance": 0.1903815857367574
+      },
+      {
+        "feature": "App_Age_Days",
+        "importance": 0.14181926149296303
+      },
+      {
+        "feature": "App_Name_Length",
+        "importance": 0.11551721967149342
+      },
+      {
+        "feature": "Size_MB",
+        "importance": 0.1116096784459364
+      },
+      {
+        "feature": "Category_Popularity",
+        "importance": 0.08525681036633358
+      },
+      {
+        "feature": "Android_Min_Version",
+        "importance": 0.033574620194991786
+      },
+      {
+        "feature": "Android_Version_Score",
+        "importance": 0.032644723395362334
+      },
+      {
+        "feature": "Content_Rating_Score",
+        "importance": 0.016313809719635232
+      },
+      {
+        "feature": "Price_Numeric",
+        "importance": 0.010754572980858272
+      }
+    ],
+    "Popularity_Score": [
+      {
+        "feature": "Reviews",
+        "importance": 0.7435407616373156
+      },
+      {
+        "feature": "Install_Category_Very High",
+        "importance": 0.10981112895622255
+      },
+      {
+        "feature": "Install_Category_Very Low",
+        "importance": 0.0896767255243804
+      },
+      {
+        "feature": "Review_Density",
+        "importance": 0.019893061119906106
+      },
+      {
+        "feature": "Install_Category_Medium",
+        "importance": 0.011861543512910388
+      },
+      {
+        "feature": "Install_Category_Low",
+        "importance": 0.010533656054282994
+      },
+      {
+        "feature": "Install_Category_nan",
+        "importance": 0.006717086878930777
+      },
+      {
+        "feature": "App_Age_Days",
+        "importance": 0.0019324419616406799
+      },
+      {
+        "feature": "Size_MB",
+        "importance": 0.001300405793525817
+      },
+      {
+        "feature": "App_Name_Length",
+        "importance": 0.001212210113559678
+      }
+    ],
+    "Success_Binary": [
+      {
+        "feature": "Reviews",
+        "importance": 0.3740313159225027
+      },
+      {
+        "feature": "Install_Category_Very High",
+        "importance": 0.10989847561147295
+      },
+      {
+        "feature": "Install_Category_Very Low",
+        "importance": 0.0767771779340857
+      },
+      {
+        "feature": "App_Age_Days",
+        "importance": 0.06968339649055391
+      },
+      {
+        "feature": "Review_Density",
+        "importance": 0.06758595457961498
+      },
+      {
+        "feature": "Install_Category_Medium",
+        "importance": 0.06729923783095787
+      },
+      {
+        "feature": "Size_MB",
+        "importance": 0.04533515907307665
+      },
+      {
+        "feature": "App_Name_Length",
+        "importance": 0.04301509576887921
+      },
+      {
+        "feature": "Install_Category_Low",
+        "importance": 0.0426519443809346
+      },
+      {
+        "feature": "Category_Popularity",
+        "importance": 0.03076489109395602
+      }
+    ],
+    "High_Rating_Binary": [
+      {
+        "feature": "Reviews",
+        "importance": 0.19293052488411258
+      },
+      {
+        "feature": "Review_Density",
+        "importance": 0.17961531368841746
+      },
+      {
+        "feature": "App_Age_Days",
+        "importance": 0.11307078386087166
+      },
+      {
+        "feature": "App_Name_Length",
+        "importance": 0.10392565810380072
+      },
+      {
+        "feature": "Size_MB",
+        "importance": 0.09626532423275756
+      },
+      {
+        "feature": "Category_Popularity",
+        "importance": 0.07535119053844994
+      },
+      {
+        "feature": "Android_Min_Version",
+        "importance": 0.04001079891461598
+      },
+      {
+        "feature": "Android_Version_Score",
+        "importance": 0.03998060646539811
+      },
+      {
+        "feature": "Install_Category_Very Low",
+        "importance": 0.034299738248460804
+      },
+      {
+        "feature": "Has_Reviews",
+        "importance": 0.02836163472894076
+      }
+    ]
+  },
+  "predictions_sample": {}
+}

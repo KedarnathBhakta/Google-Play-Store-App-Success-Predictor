@@ -1,0 +1,19 @@
+Google Play Store Apps EDA Summary
+========================================
+Total apps: 9,660
+Total user reviews: 29,697
+Columns in apps: ['App', 'Category', 'Primary_Genre', 'Rating', 'Reviews', 'Size_MB', 'Installs_Numeric', 'Type', 'Price_USD', 'Is_Free', 'Content_Rating', 'Last_Updated_Clean', 'Current_Version', 'Android_Version_Clean', 'Has_Rating', 'Has_Reviews']
+Columns in reviews: ['App', 'Translated_Review', 'Sentiment', 'Sentiment_Category', 'Sentiment_Polarity', 'Sentiment_Subjectivity']
+
+Missing values in apps:
+Rating                1464
+Size_MB               1228
+Reviews                  1
+Installs_Numeric         1
+Last_Updated_Clean       1
+
+Sentiment distribution in reviews:
+Sentiment_Category
+Positive    16429
+Neutral      8918
+Negative     4350

@@ -1,0 +1,27 @@
+{
+  "app_details": {
+    "name": "google_review",
+    "category": "GAME",
+    "type": "Free",
+    "price": 0.0,
+    "size_mb": 2000.0,
+    "content_rating": "Mature 17+",
+    "android_version": 12.0
+  },
+  "predictions": {
+    "Rating": 3.6512460095112798,
+    "Rating_Binary": "0",
+    "Popularity_Score": 0.6470472834690653
+  },
+  "recommendations": [
+    "\u2728 Add unique features to stand out from competitors",
+    "\ud83d\udd04 Regular updates can help maintain good ratings",
+    "\ud83d\udcca Consider market research to understand user needs better",
+    "\ud83d\udcb0 Free apps typically have higher adoption rates",
+    "\ud83d\udce2 Develop a strong marketing strategy",
+    "\ud83c\udfaf Target specific user segments",
+    "\ud83d\udce6 Consider optimizing app size for better download rates",
+    "\ud83d\udcf1 Lower minimum Android version can increase potential user base"
+  ],
+  "timestamp": "2025-06-28T17:21:44.985050"
+}

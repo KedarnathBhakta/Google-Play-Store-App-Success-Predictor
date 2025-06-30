@@ -1,0 +1,18 @@
+{
+  "model_name": "CatBoost_Popularity_Score",
+  "global_explanations": {
+    "shap": "Generated successfully",
+    "eli5": "Error: Unexpected feature_names type"
+  },
+  "local_explanations": {
+    "sample_0": {
+      "error": "LIME does not currently support classifier models without probability scores. If this conflicts with your use case, please let us know: https://github.com/datascienceinc/lime/issues/16"
+    },
+    "sample_1": {
+      "error": "LIME does not currently support classifier models without probability scores. If this conflicts with your use case, please let us know: https://github.com/datascienceinc/lime/issues/16"
+    },
+    "sample_2": {
+      "error": "LIME does not currently support classifier models without probability scores. If this conflicts with your use case, please let us know: https://github.com/datascienceinc/lime/issues/16"
+    }
+  }
+}

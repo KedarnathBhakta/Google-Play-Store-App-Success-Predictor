@@ -1,0 +1,56 @@
+Google Play Store Apps - Detailed Analysis Results
+============================================================
+
+PERFORMANCE ANALYSIS
+--------------------
+                    Rating   Reviews  Installs_Numeric   Size_MB
+Rating            1.000000  0.055081          0.040143  0.063070
+Reviews           0.055081  1.000000          0.625165  0.179321
+Installs_Numeric  0.040143  0.625165          1.000000  0.134291
+Size_MB           0.063070  0.179321          0.134291  1.000000
+
+CATEGORY ANALYSIS
+---------------
+Top Rated Categories:
+  EVENTS: 4.44
+  EDUCATION: 4.36
+  ART_AND_DESIGN: 4.36
+  BOOKS_AND_REFERENCE: 4.34
+  PERSONALIZATION: 4.33
+  PARENTING: 4.30
+  BEAUTY: 4.28
+  GAME: 4.25
+  SOCIAL: 4.25
+  WEATHER: 4.24
+
+STATISTICAL TESTS
+---------------
+rating_reviews_correlation:
+  correlation: 0.055080866579809803
+  p_value: 6.050594023650752e-07
+  interpretation: Weak correlation
+
+rating_installs_correlation:
+  correlation: 0.04014337289130818
+  p_value: 0.0002778068753147664
+  interpretation: Weak correlation
+
+free_vs_paid_ratings:
+  t_statistic: -4.113416996109395
+  p_value: 3.936584370406388e-05
+  free_mean: 4.166372497365648
+  paid_mean: 4.259602649006623
+  significant: True
+
+category_ratings_anova:
+  f_statistic: 8.486092680643514
+  p_value: 2.1161496329823537e-12
+  categories_tested: 10
+  significant: True
+
+type_content_rating_chi2:
+  chi2_statistic: 18.39393937176263
+  p_value: 0.002491131635338739
+  degrees_of_freedom: 5
+  significant: True
+
